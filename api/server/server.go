@@ -9,6 +9,7 @@ import (
 	"os"
 	"os/signal"
 	"pancake.maker/gen/api"
+	"pancake.maker/handler"
 )
 
 func main() {
@@ -21,7 +22,7 @@ func main() {
 	server := grpc.NewServer()
 	api.RegisterPancakeBakerServiceServer(
 		server,
-		handler.NewbakerHandler(),
+		handler.NewBakerHandler(),
 	)
 	reflection.Register(server)
 
