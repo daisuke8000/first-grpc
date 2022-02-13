@@ -8,3 +8,6 @@ out
 .DS_Store
 /client/.DS_Store
 /client/venv/
+/api/go.sum
+/api/gen/api/pancake/__pycache__/
+/api/gen/api/pancake/__pycache__/
