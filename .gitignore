@@ -6,4 +6,5 @@
 *.iml
 out
 gen
-api/client/venv/
+/client/.DS_Store
+/client/venv/
